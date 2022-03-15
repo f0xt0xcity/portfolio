@@ -22,9 +22,7 @@ const about = () => {
                   <Image alt='Imagen del certificado de marketing' src={'/img/certificadoMkt.png'} layout='responsive' width={ 480 } height={ 480 }/>
                 </div>
               </div>
-              <Link href={'https://drive.google.com/drive/folders/1ARwKxoeIQSiFX4KjuS07I073jRiqWBpO?usp=sharing'}>
-                <a className='btn btn-primary mt-5  mb-5'>Ver certificados en pdf</a>
-              </Link>
+                <a href='https://drive.google.com/drive/folders/1ARwKxoeIQSiFX4KjuS07I073jRiqWBpO?usp=sharing' target='_blank' className='btn btn-primary mt-5  mb-5'>Ver certificados en pdf</a>
             </div>
         </div>
 

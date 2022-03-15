@@ -6,9 +6,8 @@ const Footer = () => {
         <div className="container px-4 px-lg-5">
           <div className="small text-center text-muted">
             <div>
-              <Link href='https://www.linkedin.com/in/manueloctavioinfantebarbosa/'>
-                <a className='primary-link text-decoration-none'>Linkedin</a>
-              </Link>
+                <a href='https://www.linkedin.com/in/manueloctavioinfantebarbosa/' target="_blank" className='mx-2 primary-link text-decoration-none'>Linkedin</a>
+                <a href='https://github.com/f0xt0xcity/' target="_blank" className='primary-link text-decoration-none'>Github</a>
             </div>
 
             Copyright &copy; 2022 - Manuel Octavio Infante Barbosa
