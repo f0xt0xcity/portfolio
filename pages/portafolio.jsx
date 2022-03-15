@@ -36,8 +36,8 @@ const portafolio = () => {
             <div className='row justify-content-between'>
 
             { proyectos.map( proyecto => (
-                <div className='col-md-3'>
-                    <CardProyecto key = { proyecto.titulo } proyecto = { proyecto }/> 
+                <div className='col-md-3'  key = { proyecto.titulo }>
+                    <CardProyecto proyecto = { proyecto }/> 
                 </div>
             ))}
             </div>
