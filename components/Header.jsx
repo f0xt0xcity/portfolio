@@ -1,10 +1,11 @@
 import React from 'react'
+import Head from 'next/head'
 import Link from 'next/link'
 
 const Header = ( { pagina } ) => {
   return (
-      <header className='pt-5 container'>
-        <head>
+      <header>
+        <Head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <meta name="description" content="" />
@@ -16,7 +17,7 @@ const Header = ( { pagina } ) => {
             <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
             <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
             <link href="css/styles.css" rel="stylesheet" />
-        </head>
+        </Head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <nav className="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
