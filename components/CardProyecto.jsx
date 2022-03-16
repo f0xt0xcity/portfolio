@@ -12,7 +12,7 @@ const CardProyecto = ( { proyecto } ) => {
             <p className="card-text">{ descripcion }</p>
 
             <div className='d-flex justify-content-between'>
-                    <a href={ linkGithub } target="_blank" className="btn btn-primary">Link github</a>
+                    <a href={ linkGithub } rel="noreferrer" target="_blank" className="btn btn-primary">Link github</a>
                 <Link href={ linkPrueba }>
                     <a className="btn btn-primary">Probar Chabot</a>
                 </Link>

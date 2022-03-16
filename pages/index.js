@@ -12,7 +12,7 @@ export default function Home() {
       <div className='container'>
         <main className='pt-5'>
         <div className='text-center mt-5'>
-          <Image layout='intrinsic' width={150} height={150} src={'/img/fotoPerfil.png'}/>
+          <Image layout='fixed' width={150} height={150} src={'/img/fotoPerfil.webp'}/>
         </div>
               <div className="container px-4 px-lg-5 h-100">
                   <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">

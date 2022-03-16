@@ -13,16 +13,16 @@ const about = () => {
             <div className='text-center'>
               <div className='row'>
                 <div className='col-6 col-sm-4'>
-                  <Image alt='Imagen del certificado de cloud computing' src={'/img/certificadoCloud.png'} layout='responsive' width={ 480 } height={ 480 }/>
+                  <Image alt='Imagen del certificado de cloud computing' src={'/img/certificadoCloud.webp'} layout='responsive' width={ 480 } height={ 480 }/>
                 </div>
                 <div className='col-6 col-sm-4'>
-                  <Image alt='Imagen del certificado de Google bussines' src={'/img/certificadoBussines.png'} layout='responsive' width={ 480 } height={ 480 }/>
+                  <Image alt='Imagen del certificado de Google bussines' src={'/img/certificadoBussines.webp'} layout='responsive' width={ 480 } height={ 480 }/>
                 </div>
                 <div className='col-6 col-sm-4'>
-                  <Image alt='Imagen del certificado de marketing' src={'/img/certificadoMkt.png'} layout='responsive' width={ 480 } height={ 480 }/>
+                  <Image alt='Imagen del certificado de marketing' src={'/img/certificadoMkt.webp'} layout='responsive' width={ 480 } height={ 480 }/>
                 </div>
               </div>
-                <a href='https://drive.google.com/drive/folders/1ARwKxoeIQSiFX4KjuS07I073jRiqWBpO?usp=sharing' target='_blank' className='btn btn-primary mt-5  mb-5'>Ver certificados en pdf</a>
+                <a href='https://drive.google.com/drive/folders/1ARwKxoeIQSiFX4KjuS07I073jRiqWBpO?usp=sharing' rel="noreferrer" target='_blank' className='btn btn-primary mt-5  mb-5'>Ver certificados en pdf</a>
             </div>
         </div>
 
